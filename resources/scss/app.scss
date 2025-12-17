@@ -1,0 +1,15 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+.bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: -1;
+    background-image: url("/resources/images/lines.jpg");
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 100vw;
+    height: 100vh;
+    transform: scale(1.1);
+}
