@@ -27,7 +27,8 @@ class VisitController extends Controller
         // Opslaan in database
         $visit = Visit::create($validated);
 
-        Mail::to('marcdegraaf98@live.nl')->send(new VisitSubmitted($visit));
+        Mail::mailer('resend')->to('marcdegraaf98@live.nl')->send(new VisitSubmitted($visit));
+
 
         // Optioneel: redirect met succesbericht
         return redirect()->back()->with('success', 'Je bezoek is geregistreerd!');
