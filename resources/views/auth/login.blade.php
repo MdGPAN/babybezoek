@@ -3,11 +3,11 @@
 @section('title', 'Login')
 
 @section('content')
-    <div class="flex items-center justify-center min-h-screen flex-col">
+    <div class="container mx-auto flex min-h-screen items-center justify-center px-4">
         <div class="bg"></div>
 
         <div
-            class="flex min-h-full flex-col justify-center px-6 py-6 pb-6 bg-white rounded-xl shadow-2xl shadow-gray-500 min-w-md">
+            class="flex min-h-full flex-col justify-center px-6 py-6 pb-6 bg-white rounded-xl shadow-2xl shadow-gray-500 w-full max-w-sm sm:max-w-md">
             <div class="sm:mx-auto sm:w-full sm:max-w-sm">
                 <h2 class="mt-2 text-2xl font-bold tracking-tight">Login</h2>
             </div>

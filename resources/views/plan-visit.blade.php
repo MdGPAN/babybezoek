@@ -3,10 +3,10 @@
 @section('title', 'Plan je bezoek')
 
 @section('content')
-    <div class="flex items-center justify-center min-h-screen flex-col">
+    <div class="container flex items-center justify-center min-h-screen flex-col px-4">
         <div class="bg"></div>
 
-        <div class="flex min-h-full flex-col justify-center px-6 py-12 pb-10 bg-white rounded-xl shadow-2xl shadow-gray-500">
+        <div class="flex min-h-full flex-col justify-center px-6 py-12 bg-white rounded-xl shadow-2xl shadow-gray-500">
             <div class="sm:mx-auto sm:w-full sm:max-w-sm">
                 <img src="{{ asset('images/baby-boy.png') }}" alt="Your Company" class="mx-auto h-25 w-auto" />
                 <h2 class="mt-10 text-center text-2xl font-bold tracking-tight">Wanneer wil jij op bezoek
